@@ -87,4 +87,25 @@
         android:layout_alignTop="@+id/tv7"
         android:layout_alignStart="@+id/tv6" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Arduino:"
+        android:id="@+id/textView2"
+        android:layout_marginStart="70dp"
+        android:layout_alignTop="@+id/tv2"
+        android:layout_toEndOf="@+id/tv2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Not connected"
+        android:id="@+id/connected"
+        android:textColor="#e60000"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginStart="30dp" />
+
 </RelativeLayout>
